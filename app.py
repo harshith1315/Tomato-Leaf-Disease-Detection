@@ -2,7 +2,7 @@ import streamlit as st
 from keras.models import load_model
 from PIL import Image,ImageOps
 import numpy as np
-import cv2
+
 
 st.set_page_config(page_title="KANUMURI.HARSHITH'S TOMATO LEAF DETECTION ", page_icon = 'screenshot (2).png', layout = 'wide', initial_sidebar_state = 'auto')
 
