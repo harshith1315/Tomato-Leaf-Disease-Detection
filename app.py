@@ -1,8 +1,7 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from PIL import Image,ImageOps
 import numpy as np
-from tensorflow.keras.preprocessing.image import img_to_array
 import cv2
 
 st.set_page_config(page_title="KANUMURI.HARSHITH'S TOMATO LEAF DETECTION ", page_icon = 'screenshot (2).png', layout = 'wide', initial_sidebar_state = 'auto')
