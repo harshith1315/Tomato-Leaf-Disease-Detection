@@ -35,7 +35,3 @@ else:
     st.subheader(classnames[np.argmax(predict)])
 
 
-
-
-
-# python -m streamlit run app.py
